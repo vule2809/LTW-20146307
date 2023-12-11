@@ -9,11 +9,11 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>BÁN XE MÁY</title>
+<title>Website bán xe máy</title>
 <!-- CSS -->
-<link
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-	rel="stylesheet" type="text/css">
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 	rel="stylesheet" type="text/css">
@@ -26,25 +26,22 @@
 
 <body>
 	<%@ include file="/common/user/header.jsp"%>
-	
+
 	<div class="container">
 		<table border="1" style="width: 100%">
 			<tr>
-				<td valign="top" style="width:30%; padding:30px;"><%@ include file="/common/user/left.jsp"%></td>
-				<td valign="top" style="width:100%; "><decorator:body></decorator:body></td>
+				<td valign="top" style="width: 30%; padding: 30px;"><%@ include
+						file="/common/user/left.jsp"%></td>
+				<td valign="top" style="width: 70%; padding: 30px;"><decorator:body></decorator:body></td>
 			</tr>
 		</table>
 	</div>
 	<%@ include file="/common/user/footer.jsp"%>
 	<!-- JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		type="text/javascript"></script>
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script
-		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		type="text/javascript"></script>
-
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>

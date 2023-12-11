@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>SẢN PHẨM</title>
+<title>Insert title here</title>
 </head>
 <body>
 	<c:if test="${message!=null}">
@@ -15,26 +15,34 @@
 		<span>${error}</span>
 	</c:if>
 
-	<a href='<c:url value= "/product/admin-insertpro"/> '>Add product</a>
-	<table border="1" style="width: 100%">
-
-		<tr>
-			<td>ID</td>
-			<td>Name</td>
-			<td>desc</td>
-			<td>price</td>
-			<td>imageLink</td>
-			<td>categoryID</td>
-			<td>Amount</td>
-			<td>Stoke</td>
-			<td>Action</td>
-		</tr>
+	<a href='<c:url value= "/admin/product/admin-insertpro"/> '
+		class="btn btn-success float-right">Add product</a>
+	<h3>Danh sách sản phẩm</h3>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Description</th>
+				<th scope="col">Price</th>
+				<th scope="col">Image</th>
+				<th scope="col">Category</th>
+				<th scope="col">Amount</th>
+				<th scope="col">Stock</th>
+				<th scope="col">Action</th>
+			</tr>
+		</thead>
 		<tbody>
 			<c:forEach var="item" items="${listpro}">
 				<tr>
 					<td>${item.productID}</td>
 					<td>${item.productName}</td>
-					<td>${item.desc}</td>
+					<td><c:if test="${item.desc.length() <= 20}">
+         					${item.desc}
+      					</c:if>
+      					<c:if test="${item.desc.length() > 20}">
+         					${item.desc.substring(0,20)}...
+      					</c:if></td>
 					<td>${item.price}</td>
 					<td>${item.imageLink}</td>
 					<td>${item.categoryID}</td>
@@ -42,10 +50,10 @@
 					<td>${item.stoke}</td>
 
 					<td><a
-						href='<c:url value="/product/update?id=${item.productID}" /> '>Update</a>
-						|| <a
-						href='<c:url value="/product/delete?id=${item.productID}" /> '>Delete</a>
-					</td>
+						href='<c:url value="/admin/product/update?id=${item.productID}" /> '
+						class="btn btn-primary">Update</a> <a
+						href='<c:url value="/admin/product/delete?id=${item.productID}" /> '
+						class="btn btn-danger">Delete</a></td>
 				<tr>
 			</c:forEach>
 		</tbody>

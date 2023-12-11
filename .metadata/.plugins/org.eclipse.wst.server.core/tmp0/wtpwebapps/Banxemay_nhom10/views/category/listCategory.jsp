@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>DANH MỤC</title>
+<title>Insert title here</title>
 </head>
 <body>
 	<c:if test="${message!=null}">
@@ -14,30 +14,32 @@
 	<c:if test="${error!=null}">
 		<span>${error}</span>
 	</c:if>
-	<table border="1" style="width: 100%">
-
-		<tr>
-			<td>ID</td>
-			<td>Name</td>
-			<td>Icon</td>
-			<td>Action</td>
-		</tr>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Icon</th>
+				<th scope="col">Action</th>
+			</tr>
+		</thead>
 		<tbody>
 			<c:forEach var="item" items="${list}">
 				<tr>
 					<td>${item.cateID}</td>
 					<td><a
-						href='<c:url value="/findprobycate?cateid=${item.cateID}" /> '>${item.cateName}</a></td>
+						href='<c:url value="/admin/product/findprobycate?cateID=${item.cateID}" /> '>${item.cateName}</a></td>
 					<td>${item.image}</td>
+
 					<td><a
-						href='<c:url value="/category/update?id=${item.cateID}" /> '>Update</a>
-						|| <a 
-						href='<c:url value="/category/delete?id=${item.cateID}" /> '>Delete</a>
-					</td>
+						href='<c:url value="/admin/category/update?id=${item.cateID}" /> '
+						class="btn btn-primary">Update</a> <a
+						href='<c:url value="/admin/category/delete?id=${item.cateID}" /> '
+						class="btn btn-danger">Delete</a></td>
 				<tr>
 			</c:forEach>
 		</tbody>
 	</table>
-	<br>
+	
 </body>
 </html>

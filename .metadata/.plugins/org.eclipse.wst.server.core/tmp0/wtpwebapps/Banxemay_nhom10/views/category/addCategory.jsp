@@ -5,16 +5,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>THÊM HÃNG XE</title>
+<title>Insert title here</title>
 </head>
 <body>
 	<form action="add" method="post">
 			<label>Nhap category name:</label>
-			<input type="text" name="cateName"><br>
+			<input type="text" name="cateName">
 			<label>Nhap link icon:</label>
-			<input type="text" name="image"><br>
+			<input type="text" name="image">
 			
-			<input type="submit" value="Add">
+			<input type="submit" value="Add Category">
 	
 	</form>
 

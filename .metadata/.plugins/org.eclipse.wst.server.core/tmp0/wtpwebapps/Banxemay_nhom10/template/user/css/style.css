@@ -3,29 +3,29 @@
 ** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
 */
 .bloc_left_price {
-    color: #c01508;
+    color: #e44d26;
     text-align: center;
     font-weight: bold;
     font-size: 150%;
 }
 .category_block li:hover {
-    background-color: #007bff;
+    background-color: #6c757d;
 }
 .category_block li:hover a {
-    color: #ffffff;
+    color: #f8f9fa;
 }
 .category_block li a {
     color: #343a40;
 }
 .add_to_cart_block .price {
-    color: #c01508;
+    color: #e44d26;
     text-align: center;
     font-weight: bold;
     font-size: 200%;
     margin-bottom: 0;
 }
 .add_to_cart_block .price_discounted {
-    color: #343a40;
+    color: #6c757d;
     text-align: center;
     text-decoration: line-through;
     font-size: 140%;
@@ -33,7 +33,7 @@
 .product_rassurance {
     padding: 10px;
     margin-top: 15px;
-    background: #ffffff;
+    background: #f8f9fa;
     border: 1px solid #6c757d;
     color: #6c757d;
 }

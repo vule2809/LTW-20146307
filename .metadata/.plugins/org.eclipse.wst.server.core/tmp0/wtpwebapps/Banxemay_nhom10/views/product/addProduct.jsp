@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>THÊM MẪU XE</title>
+<title>Insert title here</title>
 </head>
 <body>
 	<form action="admin-insertpro" method="post" enctype="multipart/form-data">
@@ -19,7 +19,7 @@
 			<input type="file" name="imageLink"><br>
 			<label for="category">Category:</label>
 							<select name="categoryID">
-								<c:forEach items="${listcate}" var="item">
+								<c:forEach items="${list}" var="item">
 									<option value="${item.cateID}">${item.cateName}</option>
 								</c:forEach>
 							</select><br>

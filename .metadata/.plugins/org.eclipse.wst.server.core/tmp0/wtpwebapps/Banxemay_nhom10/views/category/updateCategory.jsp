@@ -5,18 +5,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>CẬP NHẬT</title>
+<title>Insert title here</title>
 </head>
 <body>
 	<form action="update" method="post">
 			<label>ID:</label>
-			<input type="text" name="cateID" value="${cate.cateID}" readonly="readonly"><br>
+			<input type="text" name="cateID" value="${cate.cateID}" readonly="readonly">
 			<label>Nhap category name:</label>
-			<input type="text" name="cateName" value="${cate.cateName}"><br>
+			<input type="text" name="cateName" value="${cate.cateName}">
 			<label>Nhap link icon:</label>
-			<input type="text" name="images" value="${cate.image}"><br>
+			<input type="text" name="images" value="${cate.image}">
 			
-			<input type="submit" value="Update">
+			<input type="submit" value="Update Category">
 	
 	</form>
 
