@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="book"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="category"/>
+			<item value="Category"/>
+			<item value="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;"/>
+			<item value="products"/>
+			<item value="store"/>
+			<item value="products0_.store"/>
+			<item value="DBconnection"/>
+			<item value="list"/>
+			<item value="BanHang"/>
+			<item value="catagoryID"/>
+			<item value="th"/>
+		</list>
+		<list key="replacehistory">
+			<item value="book"/>
+			<item value="Books"/>
+			<item value="books"/>
+			<item value="Book"/>
+			<item value="DBConnection"/>
+			<item value="model"/>
+			<item value="BanHang-2"/>
+			<item value="categoryID"/>
+			<item value="td"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="857"/>
+		<item key="DIALOG_Y_ORIGIN" value="174"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

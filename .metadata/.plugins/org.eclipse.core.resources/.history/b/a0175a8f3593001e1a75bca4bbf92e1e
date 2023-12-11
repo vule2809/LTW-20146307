@@ -1,0 +1,66 @@
+package hcmute.controllers;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import hcmute.models.CategoryModels;
+import hcmute.models.ProductModels;
+import hcmute.services.IProductService;
+import hcmute.services.ProductServiceImpl;
+
+@WebServlet(urlPatterns = {"/user-product/findALL", "/user-product/add", "/product/update", "/product/delete"})
+public class ProductController extends HttpServlet {
+
+	private static final long serialVersionUID = 1L;
+
+	IProductService proService = new ProductServiceImpl();
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String url = req.getRequestURI().toString();
+		if (url.contains("findALL")) {
+			findALL(req, resp);
+		} else if (url.contains("add")) {
+			RequestDispatcher rd = req.getRequestDispatcher("/views/product/addCategory.jsp");
+			rd.forward(req, resp);
+		} else if (url.contains("update")) {
+			int id = Integer.parseInt(req.getParameter("id"));
+			ProductModels model = proService.findOne(id);
+			req.setAttribute("cate", model);
+			RequestDispatcher rd = req.getRequestDispatcher("/views/product/updateProduct.jsp");
+			rd.forward(req, resp);
+		} else if (url.contains("delete")) {
+			delete(req, resp);
+		}
+	}
+
+	private void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		int id = Integer.parseInt(req.getParameter("id"));
+		try {
+			proService.delete(id);
+			req.setAttribute("massage","Xoa thanh cong");
+		} catch (Exception e) {
+			e.printStackTrace();
+			req.setAttribute("error","That bai ");
+		}
+		RequestDispatcher rd = req.getRequestDispatcher("/user-product/findALL");
+		rd.forward(req, resp);
+		
+	}
+
+	private void findALL(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		List<ProductModels> listcate = proService.findALL();
+		// đẩy DL ra view
+		req.setAttribute("list", listcate);
+		// view nhận DL
+		RequestDispatcher rd = req.getRequestDispatcher("/views/product/listproduct.jsp");
+		rd.forward(req, resp);
+	}
+}

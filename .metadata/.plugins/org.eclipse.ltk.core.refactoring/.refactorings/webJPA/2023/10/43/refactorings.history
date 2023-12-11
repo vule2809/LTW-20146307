@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;webJPA&apos;&#x0D;&#x0A;- Original project: &apos;webJPA&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     webJPA/src/main/java/controllers&#x0D;&#x0A;     webJPA/src/main/java/vn.hcmute.cotrollers" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;vn.hcmute.cotrollers" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;vn.hcmute" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;vn" element4="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;controllers" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1697854895480" subPackages="false" version="1.0"/>
+</session>

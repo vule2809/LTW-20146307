@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;6-JPAProject-BT3&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     common&#x0D;&#x0A;     WEB-INF&#x0D;&#x0A;     decorators&#x0D;&#x0A;     views&#x0D;&#x0A;     templates" description="Copy folders" element1="src/main/webapp/common" element2="src/main/webapp/WEB-INF" element3="src/main/webapp/decorators" element4="src/main/webapp/views" element5="src/main/webapp/templates" files="0" flags="589830" folders="5" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1701102787329" target="/SpringMVC_JPA_XML-Config/src/main/webapp" units="0" version="1.0"/>
+</session>

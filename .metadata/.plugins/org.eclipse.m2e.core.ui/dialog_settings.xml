@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ASUS\eclipse-workspace\JPAProject"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\5-BanHang-MultipartConfig\src\main\webapp\common\user\header.jsp"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\webJPA"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\hcmute"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\BanHang-1"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\BanHang-4JPA\src\main\java\META-INF\persistence.xml"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\BanHang-3\pom.xml"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\BanHang-3"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\BanHang-3\src\main\java\hcmute\controllers\CategoryController.java"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\web_2\pom.xml"/>
+			<item value="C:\Users\ASUS\eclipse-workspace\Servers"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="ute"/>
+			<item value="Web_test"/>
+			<item value="hcmute"/>
+			<item value="Web_1"/>
+			<item value="WEB_test"/>
+			<item value="WEB"/>
+		</list>
+		<list key="name">
+			<item value="project JPA 1"/>
+		</list>
+		<list key="artifactId">
+			<item value="MVC"/>
+			<item value="6-project_JPA"/>
+			<item value="RESTFULL-API_SERVLET-JPA"/>
+			<item value="hcmute"/>
+			<item value="webJPA"/>
+			<item value="BanHangJPA"/>
+			<item value="BanHang"/>
+			<item value="Web_v1"/>
+			<item value="Test"/>
+			<item value="web_2"/>
+			<item value="Web_1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0"/>
+			<item value="1.1"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

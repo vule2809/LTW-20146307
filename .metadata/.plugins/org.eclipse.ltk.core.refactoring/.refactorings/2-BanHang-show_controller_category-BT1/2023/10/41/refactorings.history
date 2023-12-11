@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;DBconnection.java&apos; to &apos;BanHang/src/main/java/hcmute.DAO&apos;&#x0D;&#x0A;- Original project: &apos;BanHang&apos;&#x0D;&#x0A;- Destination element: &apos;BanHang/src/main/java/hcmute.DAO&apos;&#x0D;&#x0A;- Original element: &apos;hcmute.controllers.DBconnection.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;hcmute.DAO" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;hcmute.controllers{DBconnection.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1696798249405" units="1" version="1.0"/>
+</session>

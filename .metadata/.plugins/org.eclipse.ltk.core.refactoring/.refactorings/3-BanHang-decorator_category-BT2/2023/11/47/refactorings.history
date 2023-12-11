@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;user&apos; to &apos;common&apos;&#x0D;&#x0A;- Original project: &apos;3-BanHang-decorator_category&apos;&#x0D;&#x0A;- Destination element: &apos;common&apos;&#x0D;&#x0A;- Original element: &apos;user&apos;" description="Copy folder" element1="src/main/webapp/common/user" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1700360801126" target="/4-BanHang-category_product_BT3/src/main/webapp/common" units="0" version="1.0"/>
+</session>

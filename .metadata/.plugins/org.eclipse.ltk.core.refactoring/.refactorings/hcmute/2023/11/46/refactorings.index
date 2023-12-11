@@ -1,0 +1,29 @@
+1699341039742	Rename package 'hcmute.controllers'
+1699341113636	Move compilation units
+1699341119494	Delete element
+1699341170460	Rename package 'hcmute.models'
+1699341187592	Rename package 'hcmute.services'
+1699341224897	Rename type 'CategoryDAOimpl'
+1699341251110	Rename type 'ICategoryDAO'
+1699341281035	Rename type 'CategoryController'
+1699341317078	Rename type 'CategoryModels'
+1699341332874	Rename type 'CategoryServiceImpl'
+1699341347380	Rename type 'ICategoryService'
+1699341409534	Rename type 'IProductService'
+1699341426710	Rename type 'ProductServiceImpl'
+1699341443830	Rename type 'ProductModels'
+1699341463153	Rename type 'IProductDAO'
+1699341479202	Rename type 'ProductDAOimpl'
+1699341498605	Rename type 'ProductController'
+1699344182166	Delete element
+1699344189603	Delete elements
+1699344201205	Delete elements
+1699344614959	Copy compilation unit
+1699344631123	Delete elements
+1699344710163	Copy compilation unit
+1699344721903	Delete element
+1699344732022	Delete element
+1699344747310	Delete element
+1699345768957	Rename type 'BookDAO'
+1699345783797	Rename type 'DBConnection'
+1699345800110	Rename type 'IBookDAO'
