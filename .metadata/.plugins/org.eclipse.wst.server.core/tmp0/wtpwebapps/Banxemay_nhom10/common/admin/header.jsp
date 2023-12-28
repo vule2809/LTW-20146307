@@ -3,7 +3,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 	<div class="container">
-		<a class="navbar-brand" href='<c:url value="/user/home" />'>Group 10</a>
+		<a class="navbar-brand" href='<c:url value="/user/home" />'>Group 10 - Banxemay</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarsExampleDefault"
 			aria-controls="navbarsExampleDefault" aria-expanded="false"
@@ -25,7 +25,7 @@
 				</li>
 				<li class="nav-item"><a class="nav-link" href="product.html">Cart</a>
 				</li>
-				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
 				</li>
 			</ul>
 
@@ -47,10 +47,10 @@
 	</div>
 </nav>
 
-<section class="jumbotron text-center">
+<section class="jumbotron text-center bg-banner">
 	<div class="container">
-			<h1 class="jumbotron-heading">Bán xe máy</h1>
-		<p class="lead text-muted mb-0">Dẫn đầu sự di chuyển với chất
+		<h1 class="jumbotron-heading">Bán xe máy</h1>
+		<p class="lead text-white mb-0">Dẫn đầu sự di chuyển với chất
 			lượng và phong cách tại mỗi quãng đường!</p>
 	</div>
 </section>

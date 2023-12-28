@@ -22,6 +22,15 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\ASUS\eclipse-workspace\Banxemay-main\Banxemay_nhom10"/>
+			<item value="D:\Banxemay_nhom10"/>
+			<item value="D:\Banxemay_nhom1"/>
+			<item value="D:\Banxemay-main"/>
+			<item value="D:\laptop"/>
+			<item value="D:\jsp-servlet-ecommerce-website-master"/>
+			<item value="D:\Ecommerce-using-Jsp-Servlet-master"/>
+			<item value="D:\attend-master"/>
+			<item value="D:\shopping-cart-master"/>
 			<item value="C:\Users\ASUS\eclipse-workspace\laptop"/>
 			<item value="C:\Users\ASUS\eclipse-workspace\Banxemay_nhom10"/>
 			<item value="C:\Users\ASUS\eclipse-workspace\hcmute"/>

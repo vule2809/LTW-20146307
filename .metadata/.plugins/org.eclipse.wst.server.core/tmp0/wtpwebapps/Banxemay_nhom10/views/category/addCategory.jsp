@@ -9,9 +9,9 @@
 </head>
 <body>
 	<form action="add" method="post">
-			<label>Nhap category name:</label>
+			<label>Nhập tên hãng xe:</label>
 			<input type="text" name="cateName">
-			<label>Nhap link icon:</label>
+			<label>Nhập link hình ảnh:</label>
 			<input type="text" name="image">
 			
 			<input type="submit" value="Add Category">
